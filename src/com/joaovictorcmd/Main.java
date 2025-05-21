@@ -42,7 +42,7 @@ public class Main {
         peopleSorted.forEach(System.out::println);
 
         System.out.println("-------------------------------------------------------");
-        System.out.println("JAPONESES");
+        System.out.println("JAPONESES (ORDENADOS POR NOME)");
         System.out.println("-------------------------------------------------------");
         japanesesSorted.forEach(System.out::println);
 
@@ -52,7 +52,7 @@ public class Main {
         brazilians.forEach(System.out::println);
 
         System.out.println("-------------------------------------------------------");
-        System.out.println("MEXICANOS ENTRE 20 E 30 ANOS ORDENADOS");
+        System.out.println("MEXICANOS ENTRE 20 E 30 ANOS (ORDENADOS POR NOME)");
         System.out.println("-------------------------------------------------------");
         mexicansBetween20And30Sorted.forEach(System.out::println);
     }
